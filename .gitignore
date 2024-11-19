@@ -13,3 +13,9 @@ __pycache__/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Ignore the Others subfolder inside Documents
+Documents/Others/
+
+# Ignore Config (Credentials)
+src/config.py

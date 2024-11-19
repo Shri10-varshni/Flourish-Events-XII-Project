@@ -1,4 +1,5 @@
 import mysql.connector
+import config # For credentials
 
 global conn
 conn=None
@@ -6,10 +7,10 @@ conn=None
 def establish_connection():
     global conn
     conn = mysql.connector.connect(
-            host="localhost",
-            database="EVENT_MANAGER",
-            user="ADMIN_USER",
-            password="Srikrishna@123" )
+            host=config.DB_HOST,
+            database=config.DB_NAME,
+            user=config.DB_USER,
+            password=config.DB_PASSWORD)
     if(conn.is_connected):
         #print("Connection Established")
         print()
