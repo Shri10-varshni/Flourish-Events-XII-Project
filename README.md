@@ -71,7 +71,7 @@ The application uses the following data models:
   - Run the SQL commands in your MySQL Workbench to create the required database, tables, and initial data.
 6. Configure Database Connection:
   - Create a config.py file inside the src folder with the following content:
-    ```python
+```python
 DB_HOST = "localhost"
 DB_USER = "ADMIN_USER"
 DB_PASSWORD = "Your Password"
