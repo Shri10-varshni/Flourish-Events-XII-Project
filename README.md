@@ -26,25 +26,25 @@ Built with `Python 3.10.8`
 
 The application uses the following data models:
 
-### 1. **USER INFORMATION**: 
+### 1. *User Information*
    - Stores information about the users such as name, contact details, and login credentials.
    
-### 2. **USER REGISTRY**:
+### 2. *User Registry*
    - A record of all users who have registered on the platform.
 
-### 3. **EVENT REGISTRY**:
+### 3. *Event Registry*
    - Contains data about the events that have been booked by users, including event name, date, and location.
    
-### 4. **EVENT ADDON REGISTRY**:
+### 4. *Event Addon Registry*
    - Details about the add-ons chosen for an event (food, decorations, invitations).
    
-### 5. **EVENT TYPE INFORMATION** (Constant):
+### 5. *Event Type Information* (Constant)
    - A predefined set of event types (e.g., wedding, corporate event, birthday party).
    
-### 6. **ADD-ON INFORMATION** (Constant):
+### 6. *Add-on Information* (Constant)
    - A predefined set of available add-ons (e.g., food, decorations, invitations).
    
-### 7. **LOCATION** (Constant):
+### 7. *Location* (Constant)
    - A list of available locations or venues for hosting events (e.g., banquet halls, outdoor spaces).
 
 ## Technology Stack
@@ -63,15 +63,15 @@ The application uses the following data models:
 1. Clone the repository: `git clone https://github.com/username/Flourish-Events.git`
 2. Create a virtual environment: `python -m venv env`
 3. Activate the environment:
-- Windows: `env\Scripts\activate`
-- Linux/Mac: `source env/bin/activate`
+  - Windows: `env\Scripts\activate`
+  - Linux/Mac: `source env/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
 5. Set up the Database: 
-- Open the file `SQL Commands - Flourish Events` located in the `Properties` folder.
-- Run the SQL commands in your MySQL Workbench to create the required database, tables, and initial data.
+  - Open the file `SQL Commands - Flourish Events` located in the `Properties` folder.
+  - Run the SQL commands in your MySQL Workbench to create the required database, tables, and initial data.
 6. Configure Database Connection:
-- Create a config.py file inside the src folder with the following content:
-```python
+  - Create a config.py file inside the src folder with the following content:
+    ```python
 DB_HOST = "localhost"
 DB_USER = "ADMIN_USER"
 DB_PASSWORD = "Your Password"
