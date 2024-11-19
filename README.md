@@ -77,5 +77,5 @@ DB_USER = "ADMIN_USER"
 DB_PASSWORD = "Your Password"
 DB_NAME = "EVENT_MANAGER"
 ```
-7. Run the Application: python `src/FlourishMain.py`
+7. Run the Application: `python src/FlourishMain.py`
 
