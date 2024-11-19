@@ -22,9 +22,9 @@ Built with `Python 3.10.8`
 - **Estimated Cost**: An estimated cost is displayed based on the selected services and add-ons.
 - **Event Status**: Users can check the status of their booked events (e.g., confirmed, pending, etc.).
 
-## Data Model
+## Database Model
 
-The application uses the following data models:
+The application uses the following databases:
 
 ### 1. *User Information*
    - Stores information about the users such as name, contact details, and login credentials.
